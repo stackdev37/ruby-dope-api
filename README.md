@@ -1,24 +1,15 @@
-# README
+#### How to Build an API With Ruby on Rails
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+* rails new my-dope-api --api --database=postgresql
 
-Things you may want to cover:
+* rails g controller api/v1/products index show --no-helper --no-assets --no-template-engine --no-test-framework
 
-* Ruby version
+* rails g model product name:string brand:string price:string description:string --no-helper --no-assets --no-template-engine --no-test-framework
 
-* System dependencies
+* rails db:create
 
-* Configuration
+* rails db:migrate
 
-* Database creation
+* rails db:seed
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Please contact me stackdev37@gmail.com if you are looking for ruby expert.
